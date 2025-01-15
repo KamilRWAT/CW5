@@ -46,5 +46,10 @@ namespace ConsoleApp3
         {
             _aktualnyGracz.Haslo = haslo;
         }
+
+        public void Usun()
+        {
+            _listaGraczy.Remove(_aktualnyGracz);
+        }
     }
 }

@@ -44,7 +44,9 @@ else
     Console.WriteLine("Błędne dane");
 }
 
-graczSerwis.EdycjaSalda(100);
+graczSerwis.Usun();
+
+graczSerwis.WyswietlGraczy();
 
 
 File.WriteAllLines(path,list.ToArray());

@@ -1,1 +1,8 @@
-﻿
+﻿1. Utworzyliśmy klasę Gracz z odpowiednimi właściwościami
+2. Dodaliśmy do klasy właściwość z opcją pobrania pełnych danych przez get
+	lub składnie lambda
+3. Przećwiczyliśmy zapis do pliku wszystkich graczy
+4. Utworzyliśmy intefejs do obsługi graczy
+5. Zaimplementowaliś interfejs (żarówka na podkreślinej nazwie lub ctrl+.)
+	i uzupełniliśmy wszystkie metody
+6. Dodaliśmy usuwanie obiektu z listy (jedna z metod CRUD)
