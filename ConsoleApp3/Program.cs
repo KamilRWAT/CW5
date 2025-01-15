@@ -29,4 +29,24 @@ foreach (Gracz g in gracze)
     //Console.WriteLine(g.PelneDane);
 }
 
+GraczSerwis graczSerwis = new GraczSerwis(gracze);
+Console.WriteLine("Podaj nick");
+string nick = Console.ReadLine();
+Console.WriteLine("Podaj haslo");
+string haslo = Console.ReadLine();
+
+if(graczSerwis.Zaloguj(haslo, nick))
+{
+    Console.WriteLine("Zalogowano");
+}
+else
+{
+    Console.WriteLine("Błędne dane");
+}
+
+graczSerwis.EdycjaSalda(100);
+
+
 File.WriteAllLines(path,list.ToArray());
+
+Console.ReadLine();
